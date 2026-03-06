@@ -29,7 +29,7 @@ func main() {
 
 	http.HandleFunc("/users", users)
 
-	fmt.Println("Servidor rodando em http://localhost:8080")
+	fmt.Println("Servidor rodando em http://localhost:8080/users")
 
 	http.ListenAndServe(":8080", nil)
 }
